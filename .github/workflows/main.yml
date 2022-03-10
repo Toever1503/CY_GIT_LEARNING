@@ -11,8 +11,8 @@ jobs:
       - name: Run a one-line script
         run: echo "Hello, world!"
 
-      - name: list home folder
-        run: echo ${{github.repository}}
+      - name: check ref
+        run: echo ${{github.ref}}
 
 #note: current run command is runner of repo, mean animenewsfrontend, 
 #test again: install npm, start
