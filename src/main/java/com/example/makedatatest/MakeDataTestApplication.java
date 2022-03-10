@@ -29,6 +29,7 @@ public class MakeDataTestApplication {
 
         System.out.println("sss");
         System.out.println("a");
+        System.out.println("This is new line");
     }
 
 
