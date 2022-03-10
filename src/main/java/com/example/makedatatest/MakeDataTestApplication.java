@@ -32,7 +32,7 @@ public class MakeDataTestApplication {
         System.out.println("sss");
         System.out.println("This is new line");
         System.out.println("This is line dev");
-        System.out.println("This is line dev");
+        System.out.println("This is line devk");
         System.out.println("This is line dev");
     }
 

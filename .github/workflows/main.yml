@@ -11,9 +11,6 @@ jobs:
       - name: Run a one-line script
         run: echo "Hello, world!"
 
-      - name: move to home folder
-        run: cd /home/animyrju
-
       - name: list home folder
         run: ls
 
