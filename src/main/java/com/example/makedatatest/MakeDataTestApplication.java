@@ -26,7 +26,9 @@ public class MakeDataTestApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(MakeDataTestApplication.class, args);
 
+        // create function to create data test
         System.out.println("a");
+        System.out.println("This is line dev");
         System.out.println("sss");
         System.out.println("This is new line");
         System.out.println("This is line dev");
