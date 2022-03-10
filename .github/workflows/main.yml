@@ -12,7 +12,7 @@ jobs:
         run: echo "Hello, world!"
 
       - name: list home folder
-        run: ls
+        run: echo ${{github.repository}}
 
 #note: current run command is runner of repo, mean animenewsfrontend, 
 #test again: install npm, start
