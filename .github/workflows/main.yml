@@ -11,8 +11,9 @@ jobs:
       - name: Run a one-line script
         run: echo "Hello, world!"
 
-      - name: check ref
-        run: echo ${{github.id}}
+      - name: check github context
+        run: echo ${{github.head_ref }}
+              echo ${{github.run_id  }}
 
 #note: current run command is runner of repo, mean animenewsfrontend, 
 #test again: install npm, start
