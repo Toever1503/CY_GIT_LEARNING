@@ -12,7 +12,7 @@ jobs:
         run: echo "Hello, world!"
 
       - name: check ref
-        run: echo ${{github.ref}}
+        run: echo ${{github.id}}
 
 #note: current run command is runner of repo, mean animenewsfrontend, 
 #test again: install npm, start
