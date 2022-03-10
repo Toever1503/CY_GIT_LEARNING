@@ -26,10 +26,10 @@ public class MakeDataTestApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(MakeDataTestApplication.class, args);
 
-
-        System.out.println("sss");
         System.out.println("a");
+        System.out.println("sss");
         System.out.println("This is new line");
+        System.out.println("This is line dev");
     }
 
 
